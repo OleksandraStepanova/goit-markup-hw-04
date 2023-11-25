@@ -321,15 +321,28 @@ img {
 }
 
 .social-networks-item {
-  background-color: #4d5ae5;
   width: 40px;
   height: 40px;
+}
+
+.social-networks-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #4d5ae5;
   border-radius: 90px 90px 90px 90px;
   padding: 12px;
 }
 
+.social-networks-link:hover,
+.social-networks-link:focus {
+  background-color: #404bbf;
+}
+
 .social-networks-icon {
-  fill: white;
+  fill: #f4f4fd;
 }
 /* Case */
 
