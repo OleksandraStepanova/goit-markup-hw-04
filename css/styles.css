@@ -453,7 +453,6 @@ img {
 }
 .social-media {
   display: block;
-  gap: 16px;
 }
 .social-media-title {
   color: #ffffff;
@@ -463,7 +462,9 @@ img {
   letter-spacing: 0.32px;
   margin-bottom: 16px;
 }
-
+.social-networks-footer {
+  gap: 16px;
+}
 .social-networks-link-footer:hover,
 .social-networks-link-footer:focus {
   background-color: #31d0aa;
