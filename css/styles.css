@@ -232,6 +232,17 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.benefits-icon {
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  width: 264px;
+  height: 112px;
+  flex-shrink: 0;
+  padding: 24px 100px;
+  margin-bottom: 8px;
+}
+
 .benefits-name {
   color: #2e2f42;
   font-size: 20px;
@@ -270,7 +281,7 @@ img {
 }
 
 .members-info {
-  padding: 32px 0 32px;
+  padding: 32px 16px;
 }
 
 .members-name {
@@ -291,6 +302,24 @@ img {
   text-align: center;
 }
 
+.social-networks {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 8px;
+}
+
+.social-networks-item {
+  background-color: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 90px 90px 90px 90px;
+  padding: 12px;
+}
+
+.social-networks-icon {
+  fill: white;
+}
 /* Case */
 
 .case {
@@ -344,4 +373,23 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
+}
+
+.footer-container {
+  display: flex;
+  gap: 120px;
+}
+.page-info {
+  display: block;
+}
+.social-media {
+  display: block;
+}
+.social-media-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
