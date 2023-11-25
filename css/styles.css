@@ -186,6 +186,7 @@ img {
   background-repeat: no-repeat;
   margin-right: auto;
   margin-left: auto;
+  background-position: center;
 }
 
 .hero-container {
@@ -461,4 +462,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.32px;
   margin-bottom: 16px;
+}
+
+.social-networks-link-footer:hover,
+.social-networks-link-footer:focus {
+  background-color: #31d0aa;
 }
